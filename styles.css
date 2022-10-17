@@ -7,9 +7,10 @@ body {
 
 @font-face {
   font-family: title;
-  src: url("./fonts/RifficFree-Bold.ttf");
+  src: url("./fonts/Retrolight.ttf");
 }
 
 .title {
   font-family: title;
+  text-align: center;
 }
