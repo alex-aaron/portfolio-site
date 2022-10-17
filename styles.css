@@ -1,0 +1,15 @@
+body {
+  padding: 15px;
+  padding-left:20px;
+  background-image: url("./images/background-5.png");
+  color: #003399
+}
+
+@font-face {
+  font-family: title;
+  src: url("./fonts/RifficFree-Bold.ttf");
+}
+
+.title {
+  font-family: title;
+}
