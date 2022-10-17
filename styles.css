@@ -10,7 +10,35 @@ body {
   src: url("./fonts/Retrolight.ttf");
 }
 
+@font-face {
+  font-family: card-title;
+  src: url('./fonts/LEMONMILK-Regular.otf')
+}
+
 .title {
   font-family: title;
   text-align: center;
+}
+
+.row {
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.card-title {
+  text-align: center;
+  font-family: card-title;
+}
+
+.card {
+  background-color: #336699
+}
+
+.navbar {
+  background-color: #336699
+}
+
+#title-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
