@@ -15,6 +15,16 @@ body {
   src: url('./fonts/LEMONMILK-Regular.otf')
 }
 
+@font-face {
+  font-family: nav-text;
+  src: url('./fonts/MADE TOMMY Light_PERSONAL USE.otf');
+}
+
+@font-face {
+  font-family: nav-title;
+  src: url('./fonts/MADE TOMMY Bold_PERSONAL USE.otf');
+}
+
 .title {
   font-family: title;
   text-align: center;
@@ -35,10 +45,19 @@ body {
 }
 
 .navbar {
-  background-color: #336699
+  background-color: #336699;
 }
+
 
 #title-container {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.nav-text {
+  font-family: nav-text;
+}
+
+.nav-title {
+  font-family: nav-title;
 }
