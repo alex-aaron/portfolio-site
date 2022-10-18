@@ -25,6 +25,16 @@ body {
   src: url('./fonts/MADE TOMMY Bold_PERSONAL USE.otf');
 }
 
+@font-face {
+  font-family: card-text;
+  src: url('./fonts/Roboto-Light.ttf');
+}
+
+@font-face {
+  font-family: bold;
+  src: url('./fonts/MADE_TOMMY Black_PERSONAL USE.otf');
+}
+
 .title {
   font-family: title;
   text-align: center;
@@ -60,4 +70,8 @@ body {
 
 .nav-title {
   font-family: nav-title;
+}
+
+.card-text {
+  font-family: nav-text;
 }
